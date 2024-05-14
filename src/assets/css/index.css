@@ -18,16 +18,17 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: white;
-  color: white;
+  background-color: #050570;
+  color: #050570;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
 header,
 footer {
-  background-color: gray;
+  background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
 }

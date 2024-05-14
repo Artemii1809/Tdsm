@@ -7,13 +7,16 @@
     gap: 30px;
     margin-bottom: 30px;
 }
+
 .kanban_list {
     padding: 20px;
 }
+
 .task_title {
     color: black;
-    
+
 }
+
 .task_day {
     background-color: orange;
     padding: 5px;
@@ -23,26 +26,143 @@
 
 }
 
+
 .task_indicator li {
     display: inline-block;
     margin: 5px;
     background-color: orange;
-    width: 15px;
-    height: 10px;
-    border-radius: 0px 0px 0px 15px;
+    width: 30px;
+    height: 15px;
+    border-radius: 0px 4px 4px 15px;
 
 }
+
+
+
+
 .task_footer--level {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .datatime {
     color: blue;
-   
+
 }
+
 .task_footer {
     display: flex;
-   justify-content: space-between;
-    
+    justify-content: space-between;
+
+}
+
+.inprocess {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.kanban_list {
+    padding: 20px;
+}
+
+.inprocess_title {
+    color: black;
+
+}
+
+.inprocess_day {
+    background-color: #aa275d;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+
+}
+
+.inprocess_indicator li {
+    display: inline-block;
+    margin: 5px;
+    background-color: #aa275d;
+    width: 30px;
+    height: 15px;
+    border-radius: 0px 4px 4px 15px;
+
+}
+
+.inprocess_footer--level {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.datatime {
+    color: blue;
+
+}
+
+.inprocess_footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.done {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.kanban_list {
+    padding: 20px;
+}
+
+.done_title {
+    color: black;
+
+}
+
+.done_day {
+    background-color: #0ebb25;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: fit-content;
+
+}
+
+.done_indicator li {
+    display: inline-block;
+    margin: 5px;
+    background-color: #0ebb25;
+    width: 30px;
+    height: 15px;
+    border-radius: 0px 4px 4px 15px;
+
+}
+
+.done_footer--level {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.datatime {
+    color: blue;
+
+}
+
+.done_footer {
+    display: flex;
+    justify-content: space-between;
+
 }
