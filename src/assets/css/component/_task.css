@@ -34,9 +34,19 @@
     width: 30px;
     height: 15px;
     border-radius: 0px 4px 4px 15px;
+    
 
 }
 
+.indicator {
+    display: inline-block;
+    margin: 5px;
+    background-color: #D9D9D9;
+    width: 30px;
+    height: 15px;
+    border-radius: 0px 4px 4px 15px;
+    
+}
 
 
 
