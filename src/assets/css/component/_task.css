@@ -30,14 +30,16 @@
 .task_indicator li {
     display: inline-block;
     margin: 5px;
-    background-color: orange;
+    background-color: gray;
     width: 30px;
     height: 15px;
     border-radius: 0px 4px 4px 15px;
     
 
 }
-
+li .task_indicator--green {
+    background-color: #0ebb25;
+}
 .indicator {
     display: inline-block;
     margin: 5px;
@@ -45,7 +47,7 @@
     width: 30px;
     height: 15px;
     border-radius: 0px 4px 4px 15px;
-    
+
 }
 
 
